@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, 'views'))
 if (process.env.NODE_ENV === "dev") {
     app.use(morgan('dev'))
 }
-
+console.log('osama')
 //access static file like overvieww.html
 app.use(express.static( path.join(__dirname, 'public')))
 
