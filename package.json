@@ -5,16 +5,21 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js -e js,hbs,json"
   },
   "author": "usama gul",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "hbs": "^4.1.2",
     "mongoose": "^6.0.10",
     "morgan": "^1.10.0",
-    "slugify": "^1.6.1"
+    "multer": "^1.4.3",
+    "slugify": "^1.6.1",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
